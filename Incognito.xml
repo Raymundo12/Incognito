@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CD_OFERTA>
-          <CD>
-                  <titulo>Still got the blues</titulo>
-                  <artista>Gary Moore</artista>
-                  <pais>UK</pais>
-                  <discografica>Virgin Records</discografica>
-                  <precio>10.20</precio>
+<Vinyl_Sales>
+          <Vinyl>
+                  <title>Still got the blues</title>
+                  <Author>Gary Moore</Author>
+                  <Country>UK</Country>
+                  <Label>Virgin Records</Label>
+                  <price>15.20</price>
                   <Año>1990</Año>
-          </CD>
-          <CD>
-                  <titulo>One night only</titulo>
-                  <artista>Bee Gees</artista>
-                  <pais>UK</pais>
-                  <discografica>Polydor</discografica>
-                  <precio>10.90</precio>
+          </Vinyl>
+          <Vinyl>
+                  <title>One night only</title>
+                  <Author>Bee Gees</Author>
+                  <Country>UK</Country>
+                  <Label>Polydor</Label>
+                  <price>14.90</price>
                   <Año>1998</Año>
-          </CD>
-          <CD>
-                  <titulo>When a man loves a woman</titulo>
-                  <artista>Percy Sledge</artista>
-                  <pais>USA</pais>
-                  <discografica>Atlantic</discografica>
-                  <precio>8.70</precio>
+          </Vinyl>
+          <Vinyl>
+                  <title>When a man loves a woman</title>
+                  <Author>Percy Sledge</Author>
+                  <Country>USA</Country>
+                  <Label>Atlantic</Label>
+                  <price>14.70</price>
                   <Año>1987</Año>
-          </CD>
-          <CD>
-                  <titulo>Big Willie style</titulo>
-                  <artista>Will Smith</artista>
-                  <pais>USA</pais>
-                  <discografica>Columbia</discografica>
-                  <precio>9.90</precio>
+          </Vinyl>
+          <Vinyl>
+                  <title>Big Willie style</title>
+                  <Author>Will Smith</Author>
+                  <Country>USA</Country>
+                  <Label>Columbia</Label>
+                  <price>15.90</price>
                   <Año>1997</Año>
-          </CD>
-          <CD>
-                  <titulo>La cancion de Juan Perro</titulo>
-                  <artista>Radio Futura</artista>
-                  <pais>España</pais>
-                  <discografica>Sony Music-Ariola</discografica>
-                  <precio>9.90</precio>
+          </Vinyl>
+          <Vinyl>
+                  <title>La cancion de Juan Perro</title>
+                  <Author>Radio Futura</Author>
+                  <Country>España</Country>
+                  <Label>Sony Music-Ariola</Label>
+                  <price>45.90</price>
                   <Año>1987</Año>
-          </CD>
-          <CD>
-                  <titulo>The dock of the bay</titulo>
-                  <artista>Otis Redding</artista>
-                  <pais>USA</pais>
-                  <discografica>Atlantic</discografica>
-                  <precio>7.90</precio>
+          </Vinyl>
+          <Vinyl>
+                  <title>The dock of the bay</title>
+                  <Author>Otis Redding</Author>
+                  <Country>USA</Country>
+                  <Label>Atlantic</Label>
+                  <price>14.90</price>
                   <Año>1987</Año>
-          </CD>
-</CD_OFERTA>
+          </Vinyl>
+</Vinyl_Sales>

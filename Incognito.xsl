@@ -1,42 +1,18 @@
-<?xml version="1.0" ?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:template match="/">
-        <table id="Rocords table" border="1" class="indent">
-            <thead>
-                <tr>
-                    <th colspan="3">Incognito Store</th>
-                </tr>
-                <tr>
-                    <th>Select</th>
-                    <th>Vinyl</th>
-                    <th>price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <xsl:for-each select="/Records/section">
-                    <tr>
-                        <td colspan="3">
-                            <xsl:value-of select="@name" />
-                        </td>
-                    </tr>
-                    <xsl:for-each select="Vinyl">
-                        <tr id="{position()}">
-                            <xsl:attribute name="">
-                                <xsl:value-of select="boolean(@Vinyl)" />
-                            </xsl:attribute>
-                            <td align="center">
-                                <input name="item0" type="checkbox" />
-                            </td>
-                            <td>
-                                <xsl:value-of select="item" />
-                            </td>
-                            <td align="right">
-                                <xsl:value-of select="price" />
-                            </td>
-                        </tr>
-                    </xsl:for-each>
-                </xsl:for-each>
-            </tbody>
-        </table>
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
+    <xsl:output method="html" doctype-public="XSLT-compat" omit-xml-declaration="yes" encoding="UTF-8" indent="yes" />
+
+    <xsl:template match="*">
+        <xsl:apply-templates/>
     </xsl:template>
-</xsl:stylesheet>
+    <xsl:template match="text()">
+       <div style="border: solid 1px">
+          <xsl:value-of select="."/>
+       </div>
+    </xsl:template> 
+    <xsl:template match="/">
+       <div style="border: solid 3px red; padding: 10px">
+          <xsl:apply-templates/>
+       </div>
+    </xsl:template>
+</xsl:transform>

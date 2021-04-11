@@ -48,7 +48,13 @@ router.get('/incog/html', function(req, res) {
     var stylesheet = xmlParse(xsl); //Parsing our XSL file
 
     var result = xsltProcess(doc, stylesheet); //This does our XSL Transformation
+     
+    xmlFileToJs('Incognito.xml', function (err, result) {
+    if (err) throw (err);
+    console.log(result);
 
+    })
+     
     res.end(result.toString()); //Send the result back to the user, but convert to type string first
 
 });

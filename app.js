@@ -68,7 +68,7 @@ router.post('/post/json', function (req, res) {
         xmlFileToJs('Incognito.xml', function (err, result) {
             if (err) throw (err);
             
-            result.cafemenu.section[obj.sec_n].entree.push({'item': obj.item, 'price': obj.price});
+            result.vinyl_sales.section[obj.sec_n].entree.push({'item': obj.item, 'price': obj.price});
 
             console.log(JSON.stringify(result, null, "  "));
 
